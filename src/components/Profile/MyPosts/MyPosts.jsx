@@ -3,6 +3,13 @@ import s from './MyPosts.module.css';
 import Post from './Post/Post';
 
 const MyPosts = () => {
+
+  let postsId = [
+    { id: 0, message: 'hi', like: 34 },
+    { id: 1, message: 'how are you?', like: 97 },
+
+  ]
+
   return (
     <div className={s.allposts}>
       <p align='center'>My posts</p>
@@ -15,8 +22,8 @@ const MyPosts = () => {
         </p>
       </div>
       <div className={s.posts}>
-        <Post like='15' message='hi! how are you?' />
-        <Post like='20' message='ok' />
+        <Post message={postsId[0].message} like={postsId[0].like}/>
+        <Post like={postsId[1].like} message={postsId[1].message} />
 
       </div>
     </div>
