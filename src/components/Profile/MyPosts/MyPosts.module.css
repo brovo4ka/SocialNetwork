@@ -1,13 +1,15 @@
-.allposts{
+.allposts {
     align-self: center;
 
 }
 
-.posts{
+.posts {
     padding-left: 20px;
     padding-block-end: 20px;
+    margin-top: 10px;
 }
-.addpost{
+
+.addpost {
     padding-left: 20px;
 
 }

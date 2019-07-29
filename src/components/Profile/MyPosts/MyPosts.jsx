@@ -8,16 +8,16 @@ const MyPosts = () => {
       <p align='center'>My posts</p>
       <div className={s.addpost}>
         <p align='center'>
-        <textarea cols='40' rows='5'></textarea>
-        <p>
-        <button>Add post</button>
-        </p>
+          <textarea cols='40' rows='5'></textarea>
+          <p>
+            <button>Add post</button>
+          </p>
         </p>
       </div>
       <div className={s.posts}>
-        <Post like='15' message='hi! how are you?'/>
-        <Post like='20' message='ok'/>
-       
+        <Post like='15' message='hi! how are you?' />
+        <Post like='20' message='ok' />
+
       </div>
     </div>
   )

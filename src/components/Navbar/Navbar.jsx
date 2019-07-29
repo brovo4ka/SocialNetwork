@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Navbar.module.css';
-import {NavLink} from 'react-router-dom'
- console.log(s);
+import { NavLink } from 'react-router-dom'
+console.log(s);
 
 const Navbar = () => {
     return <nav className={s.nav}>

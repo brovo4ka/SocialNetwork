@@ -13,8 +13,10 @@ return  <div className={`${s.dialog} ${s.active}`}>
 {props.name}
 </NavLink>
 </div>
+}
 
-
+const Message = (props) =>{
+    return  <div className={s.dialog}>{props.message}</div>
 }
 
 const Dialogs = (props) =>{
@@ -25,13 +27,11 @@ return (
         <DialogItems name='Ira' id='2'/>
         <DialogItems name='Olya' id='3'/>
         <DialogItems name='Kolya' id='4'/>
-       
-    </div>
+      </div>
     <div className={s.messages}>
-         <div className={s.dialog}>Hi</div>
-         <div className={s.dialog}>How do you do?</div>
-         <div className={s.dialog}>Go home!</div>       
-    
+         <Message message='Hi'/>
+         <Message message='How are you?'/>
+         <Message message='Ok?'/>
         
     </div>
 </div>

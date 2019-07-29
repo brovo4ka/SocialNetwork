@@ -1,6 +1,6 @@
 .item {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+
   color: black;
 }
 
@@ -11,18 +11,18 @@
   padding: 10px;
 }
 
-.item.like{
+.item.like {
   padding-left: 20px;
   display: flex;
-  align-items:center;
+  align-items: center;
   color: red;
   font-size: 10px;
-  font-family:  Verdana, Geneva, Tahoma, sans-serif;
-  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
-.like img{
-padding: 0px;
-width: 3%;
-height: 3%;
+.like img {
+  padding: 0px;
+  width: 3%;
+  height: 3%;
 }
